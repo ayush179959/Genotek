@@ -200,8 +200,9 @@ h1, h2, h3, p {
 
 /* Second Image Text */
 .secondimage-text {
+
     width: 100%;
-    padding: 2vw;
+    padding-top: 8vw;
     text-align: center;
     position: absolute;
 }
@@ -282,6 +283,39 @@ h1, h2, h3, p {
     position: relative;
 }
 
+.video-one{
+    display: flex;
+    position: relative;
+    height: 60dvh;
+    align-items: center;
+    justify-content: center;
+}
+.video-one-container{
+flex: 1;
+}
+.video-one-text-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.video-one-text-container h2{
+    font-size: 3vw;
+    padding-bottom: 2vw;
+}
+.video-one-text-container p{
+    width: 30vw;
+    font-size: 1.4vw;
+}
+.video-one-parent{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
 /* Footer */
 footer {
     background-color: #333;
@@ -313,11 +347,34 @@ img{
     padding-bottom: 2vw;
     font-size: 3vw;
 }
+
+.finishes-title{
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+}
+.finishes-desc{
+    font-size: 1.5vw;
+    text-align: center;
+    padding-bottom: 8vw;
+    width: 50vw;
+}
 .fourthimage-desc{
     font-size: 1.5vw;
     text-align: center;
     padding-bottom: 5vw;
     width: 50vw;
+}
+
+.firetruck-text{
+    text-align: center;
+    font-size: 1.5vw;
+    
+    padding-bottom: 5vw;
+}
+.firetruck-video{
+    padding-top: 10vw;
 }
 
 .slidable-images-container{
