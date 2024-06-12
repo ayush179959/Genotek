@@ -176,9 +176,14 @@ h1, h2, h3, p {
 .firstimage-text {
     position: absolute;
     top: 30%;
-    right: 5vw;
+    right: 0vw;
     max-width: 50%;
     text-align: center;
+    object-fit: contain;
+}
+
+.icon-poster{
+    width: 30vw;
 }
 
 .firstimage-text h2 {
@@ -202,7 +207,7 @@ h1, h2, h3, p {
 .secondimage-text {
 
     width: 100%;
-    padding-top: 8vw;
+    padding-top: 4vw;
     text-align: center;
     position: absolute;
 }
